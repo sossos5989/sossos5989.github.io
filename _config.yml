@@ -175,10 +175,10 @@ defaults:
       categories: 알고리즘
       comments: true
   - scope:
-      path: "_posts/blog-development" # 블로그 개발 관련 게시물
+      path: "_posts/blog" # 블로그 개발 관련 게시물
     values:
       layout: post
-      categories: 블로그 개발
+      categories: 블로그
       comments: true
   - scope:
       path: _drafts
