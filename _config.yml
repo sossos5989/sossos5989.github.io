@@ -161,22 +161,32 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "" # 프로젝트 내 모든 파일
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
-      toc: true # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
-      permalink: /posts/:title/
+      comments: true # 게시물에 댓글 활성화
+      toc: true # 게시물에서 목차 표시
+      permalink: /posts/:categories/:title/ # 카테고리 기반 URL
+  - scope:
+      path: "_posts/algorithm" # 알고리즘 관련 게시물
+    values:
+      layout: post
+      categories: 알고리즘
+      comments: true
+  - scope:
+      path: "_posts/blog-development" # 블로그 개발 관련 게시물
+    values:
+      layout: post
+      categories: 블로그 개발
+      comments: true
   - scope:
       path: _drafts
     values:
       comments: false
   - scope:
-      path: ""
-      type: tabs # see `site.collections`
+      path: "" # 탭 관련 설정
+      type: tabs # site.collections 참조
     values:
       layout: page
       permalink: /:title/
