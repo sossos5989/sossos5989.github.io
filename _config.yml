@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: SW's workspace # the main title
 
-tagline: studying algorithm # it will display as the sub-title
+tagline: Hello # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  깃헙 블로그를 운영해보고 있습니다.(2024/12/21)
+  깃헙 블로그를 운영중
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
