@@ -184,6 +184,12 @@ defaults:
       categories: 블로그
       comments: true
   - scope:
+      path: "_posts/school" # 충남대학교 관련 게시물
+    values:
+      layout: post
+      categories: 학부생활활
+      comments: true
+  - scope:
       path: _drafts
     values:
       comments: false
