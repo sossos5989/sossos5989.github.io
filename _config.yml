@@ -178,6 +178,14 @@ defaults:
       categories: 알고리즘
       comments: true
   - scope:
+      path: "_posts/algorithm"/jongman" # 알고리즘 > 종만북
+    values:
+      layout: post
+      categories:
+        - 알고리즘
+        - 종만북
+      comments: true
+  - scope:
       path: "_posts/blog" # 블로그 개발 관련 게시물
     values:
       layout: post
