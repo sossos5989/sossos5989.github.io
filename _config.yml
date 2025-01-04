@@ -178,7 +178,7 @@ defaults:
       categories: 알고리즘
       comments: true
   - scope:
-      path: "_posts/algorithm"/jongman" # 알고리즘 > 종만북
+      path: "_posts/algorithm/jongman" # 알고리즘 > 종만북
     values:
       layout: post
       categories:
