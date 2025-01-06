@@ -18,11 +18,18 @@ layout: compress
   <script>
     MathJax = {
       tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']]
-      },
-      svg: {
-        fontCache: 'global'
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        packages: { '[+]': ['ams'] },
+        svg: {
+          fontCache: 'global'
+        }
       }
     };
   </script>
