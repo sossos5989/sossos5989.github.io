@@ -198,6 +198,14 @@ defaults:
       categories: 학부생활
       comments: true
   - scope:
+      path: "_posts/school/operation-system" # 학부생활 > 운영체제
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 운영체제
+      comments: true
+  - scope:
       path: "_posts/school/2024-winter-mogakco" # 학부생활 > 2024 동계 모각코
     values:
       layout: post
