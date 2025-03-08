@@ -211,7 +211,7 @@ defaults:
       layout: post
       categories:
         - 학부생활
-        - 프로그래밍언어개론론
+        - 프로그래밍언어개론
       comments: true
   - scope:
       path: "_posts/school/2024-winter-mogakco" # 학부생활 > 2024 동계 모각코
