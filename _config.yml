@@ -39,7 +39,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/sossos5989 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -204,6 +204,14 @@ defaults:
       categories:
         - 학부생활
         - 운영체제
+      comments: true
+  - scope:
+      path: "_posts/school/UPL" # 학부생활 > 프로그래밍언어개론
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 프로그래밍언어개론론
       comments: true
   - scope:
       path: "_posts/school/2024-winter-mogakco" # 학부생활 > 2024 동계 모각코
