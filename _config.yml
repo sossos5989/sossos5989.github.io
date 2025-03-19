@@ -186,7 +186,7 @@ defaults:
         - 종만북
       comments: true
   - scope:
-      path: "_posts/algorithm/contest" # 알고리즘 > 콘테스트트
+      path: "_posts/algorithm/contest" # 알고리즘 > 콘테스트
     values:
       layout: post
       categories:
@@ -220,6 +220,13 @@ defaults:
       categories:
         - 학부생활
         - 프로그래밍언어개론
+  - scope:
+      path: "_posts/school/IP" # 학부생활 > 영상처리
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 영상처리
       comments: true
   - scope:
       path: "_posts/school/2024-winter-mogakco" # 학부생활 > 2024 동계 모각코
