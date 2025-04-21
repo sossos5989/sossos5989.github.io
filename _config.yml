@@ -203,7 +203,7 @@ defaults:
       path: "_posts/CS" # Computer Science
     values:
       layout: post
-      categories: 학부생활
+      categories: CS
       comments: true
   - scope:
       path: "_posts/CS/operation-system" # CS > 운영체제
