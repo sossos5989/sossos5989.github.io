@@ -221,6 +221,14 @@ defaults:
         - 학부생활
         - 프로그래밍언어개론
   - scope:
+      path: "_posts/school/DC" # 학부생활 > 데이터통신신
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 데이터통신
+      comments: true
+  - scope:
       path: "_posts/school/IP" # 학부생활 > 영상처리
     values:
       layout: post
