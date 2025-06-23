@@ -251,6 +251,14 @@ defaults:
         - 2024 동계 모각코
       comments: true
   - scope:
+      path: "_posts/school/review" # 학부생활 > 학기리뷰
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 학기 리뷰
+      comments: true
+  - scope:
       path: _drafts
     values:
       comments: false
