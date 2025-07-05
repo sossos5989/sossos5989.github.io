@@ -251,6 +251,14 @@ defaults:
         - 2024 동계 모각코
       comments: true
   - scope:
+      path: "_posts/school/2025-summer-mogakco" # 학부생활 > 2025 하계 모각코
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 2025 하계 모각코
+      comments: true
+  - scope:
       path: "_posts/school/review" # 학부생활 > 학기리뷰
     values:
       layout: post
