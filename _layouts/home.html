@@ -40,6 +40,23 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<!-- 디자인 수정 -->
+<section class="px-xl-1 mb-4">
+  <div class="p-4 rounded-4 border">
+    <h1 class="h3 mb-2">안녕하세요 👋</h1>
+    <p class="mb-3 text-muted">
+      여기는 기록용 블로그입니다. 지금은 공사중(정리중)이라 내용이 조금씩 바뀔 수 있어요.
+    </p>
+
+    <div class="d-flex flex-wrap gap-2">
+      <a class="btn btn-primary" href="{{ '/tabs/about/' | relative_url }}">About</a>
+      <a class="btn btn-outline-primary" href="{{ '/categories/' | relative_url }}">Categories</a>
+      <a class="btn btn-outline-primary" href="{{ '/tags/' | relative_url }}">Tags</a>
+      <a class="btn btn-outline-primary" href="{{ '/archives/' | relative_url }}">Archives</a>
+    </div>
+  </div>
+</section>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
