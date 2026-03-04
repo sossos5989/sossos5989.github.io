@@ -267,20 +267,20 @@ defaults:
         - 2025 하계 모각코
       comments: true
   - scope:
+      path: "_posts/school/las-vegas-project" # 학부생활 > 라스베가스
+    values:
+      layout: post
+      categories:
+        - 학부생활
+        - 라스베가스
+      comments: true
+  - scope:
       path: "_posts/school/graduation-project" # 학부생활 > 졸업 프로젝트
     values:
       layout: post
       categories:
         - 학부생활
         - 졸업 프로젝트
-      comments: true
-  - scope:
-      path: "_posts/school/review" # 학부생활 > 학기리뷰
-    values:
-      layout: post
-      categories:
-        - 학부생활
-        - 학기 리뷰
       comments: true
   - scope:
       path: _drafts
