@@ -40,22 +40,33 @@ refactor: true
   {% endfor %}
 {% endif %}
 
-<!-- 디자인 수정 -->
-<!-- <section class="px-xl-1 mb-4">
-  <div class="p-4 rounded-4 border">
-    <h1 class="h3 mb-2">안녕하세요 👋</h1>
-    <p class="mb-3 text-muted">
-      여기는 기록용 블로그입니다. 지금은 공사중(정리중)이라 내용이 조금씩 바뀔 수 있어요.
-    </p>
+<section class="home-intro px-xl-1">
+  <p class="home-intro__eyebrow">{{ site.title }}</p>
+  <h1>공부한 것과 만든 것을 남기는 개발 기록</h1>
+  <p class="home-intro__description">
+    CS, 알고리즘, 프로젝트, 학부 활동을 정리합니다. 관심사와 이력은 포트폴리오에 모으고, 자세한 학습 기록은 글로 남깁니다.
+  </p>
 
-    <div class="d-flex flex-wrap gap-2">
-      <a class="btn btn-primary" href="{{ '/tabs/about/' | relative_url }}">About</a>
-      <a class="btn btn-outline-primary" href="{{ '/categories/' | relative_url }}">Categories</a>
-      <a class="btn btn-outline-primary" href="{{ '/tags/' | relative_url }}">Tags</a>
-      <a class="btn btn-outline-primary" href="{{ '/archives/' | relative_url }}">Archives</a>
-    </div>
+  <div class="home-intro__links">
+    <a href="{{ '/portfolio/' | relative_url }}">
+      <i class="fas fa-id-card"></i>
+      <span>포트폴리오</span>
+    </a>
+    <a href="{{ '/categories/' | relative_url }}">
+      <i class="fas fa-stream"></i>
+      <span>카테고리</span>
+    </a>
+    <a href="{{ '/archives/' | relative_url }}">
+      <i class="fas fa-archive"></i>
+      <span>아카이브</span>
+    </a>
   </div>
-</section> -->
+</section>
+
+<div class="home-section-heading px-xl-1">
+  <h2>최근 글</h2>
+  <a href="{{ '/archives/' | relative_url }}">전체 보기</a>
+</div>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
