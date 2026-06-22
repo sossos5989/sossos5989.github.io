@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: SW's workspace # the main title
 
-tagline: 열심히 할게요 # it will display as the sub-title
+tagline: 시작이 반이네 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   깃헙 블로그
