@@ -171,77 +171,10 @@ defaults:
       toc: true # 게시물에서 목차 표시
       permalink: /posts/:categories/:title/ # 카테고리 기반 URL
   - scope:
-      path: "_posts/algorithm" # 알고리즘 관련 게시물
+      path: "_posts/game-develop" # 게임개발 관련 게시물
     values:
       layout: post
-      categories: 알고리즘
-      comments: true
-  - scope:
-      path: "_posts/algorithm/Jongman" # 알고리즘 > 종만북
-    values:
-      layout: post
-      categories:
-        - 알고리즘
-        - 종만북
-      comments: true
-  - scope:
-      path: "_posts/algorithm/contest" # 알고리즘 > 콘테스트
-    values:
-      layout: post
-      categories:
-        - 알고리즘
-        - 콘테스트
-      comments: true
-  - scope:
-      path: "_posts/algorithm/wellknown" # 알고리즘 > 웰노운
-    values:
-      layout: post
-      categories:
-        - 알고리즘
-        - 웰노운
-      comments: true
-  - scope:
-      path: "_posts/blog" # 블로그 개발 관련 게시물
-    values:
-      layout: post
-      categories: 블로그
-      comments: true
-  - scope:
-      path: "_posts/CS" # Computer Science
-    values:
-      layout: post
-      categories: CS
-      comments: true
-  - scope:
-      path: "_posts/CS/operation-system" # CS > 운영체제
-    values:
-      layout: post
-      categories:
-        - CS
-        - 운영체제
-      comments: true
-  - scope:
-      path: "_posts/CS/UPL" # CS > 프로그래밍언어개론
-    values:
-      layout: post
-      categories:
-        - CS
-        - 프로그래밍언어개론
-  - scope:
-      path: "_posts/CS/DC" # CS > 데이터통신
-    values:
-      layout: post
-      categories:
-        - CS
-        - 데이터통신
-      comments: true
-  - scope:
-      path: "_posts/CS/IP" # CS > 영상처리
-    values:
-      layout: post
-      categories:
-        - CS
-        - 영상처리
+      categories: 게임개발
       comments: true
   - scope:
       path: "_posts/school" # 충남대학교 관련 게시물
@@ -288,6 +221,79 @@ defaults:
       categories:
         - 학부생활
         - 졸업 프로젝트
+      comments: true
+  - scope:
+      path: "_posts/CS" # Computer Science
+    values:
+      layout: post
+      categories: CS
+      comments: true
+  - scope:
+      path: "_posts/CS/operation-system" # CS > 운영체제
+    values:
+      layout: post
+      categories:
+        - CS
+        - 운영체제
+      comments: true
+  - scope:
+      path: "_posts/CS/UPL" # CS > 프로그래밍언어개론
+    values:
+      layout: post
+      categories:
+        - CS
+        - 프로그래밍언어개론
+  - scope:
+      path: "_posts/CS/DC" # CS > 데이터통신
+    values:
+      layout: post
+      categories:
+        - CS
+        - 데이터통신
+      comments: true
+  - scope:
+      path: "_posts/CS/IP" # CS > 영상처리
+    values:
+      layout: post
+      categories:
+        - CS
+        - 영상처리
+      comments: true
+  - scope:
+      path: "_posts/algorithm" # 알고리즘 관련 게시물
+    values:
+      layout: post
+      categories: 알고리즘
+      comments: true
+  - scope:
+      path: "_posts/algorithm/Jongman" # 알고리즘 > 종만북
+    values:
+      layout: post
+      categories:
+        - 알고리즘
+        - 종만북
+      comments: true
+  - scope:
+      path: "_posts/algorithm/contest" # 알고리즘 > 콘테스트
+    values:
+      layout: post
+      categories:
+        - 알고리즘
+        - 콘테스트
+      comments: true
+  - scope:
+      path: "_posts/algorithm/wellknown" # 알고리즘 > 웰노운
+    values:
+      layout: post
+      categories:
+        - 알고리즘
+        - 웰노운
+      comments: true
+  - scope:
+      path: "_posts/blog" # 블로그 개발 관련 게시물
+    values:
+      layout: post
+      categories: 블로그
       comments: true
   - scope:
       path: _drafts

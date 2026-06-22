@@ -1,0 +1,118 @@
+.portfolio-intro {
+  margin-bottom: 2.5rem;
+
+  .portfolio-name {
+    margin-bottom: 0.75rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+}
+
+.portfolio-section {
+  margin-top: 2.5rem;
+}
+
+.portfolio-timeline {
+  position: relative;
+  margin-top: 1.25rem;
+  padding-left: 8.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0.35rem;
+    bottom: 0.35rem;
+    left: 6.25rem;
+    width: 4px;
+    border-radius: 999px;
+    background-color: var(--timeline-color);
+  }
+}
+
+.portfolio-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7.25rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  margin-left: -8.5rem;
+  padding: 0.35rem 0 2rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0.9rem;
+    left: 5.9rem;
+    width: 12px;
+    height: 12px;
+    border: 3px solid var(--timeline-node-bg);
+    border-radius: 50%;
+    background-color: var(--timeline-year-dot-color);
+    box-shadow: 0 0 2px 0 #c2c6cc;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.portfolio-date {
+  padding-top: 0.1rem;
+  font-family: Lato, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted-color);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.portfolio-body {
+  min-width: 0;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  ul {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+}
+
+.portfolio-meta {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted-color);
+}
+
+@media all and (max-width: 576px) {
+  .portfolio-timeline {
+    padding-left: 1.5rem;
+
+    &::before {
+      left: 0.25rem;
+    }
+  }
+
+  .portfolio-entry {
+    display: block;
+    margin-left: -1.5rem;
+    padding-left: 1.5rem;
+
+    &::before {
+      left: -0.1rem;
+    }
+  }
+
+  .portfolio-date {
+    display: block;
+    margin-bottom: 0.45rem;
+    text-align: left;
+  }
+}
