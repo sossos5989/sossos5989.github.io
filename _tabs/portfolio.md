@@ -18,7 +18,7 @@ order: 1
   <h2>Education</h2>
   <div class="portfolio-timeline">
     <article class="portfolio-entry">
-      <time class="portfolio-date">2021 - 2027</time>
+      <time class="portfolio-date">21.3 - 27.2</time>
       <div class="portfolio-body">
         <h3>충남대학교</h3>
         <p>학부 과정</p>
@@ -31,7 +31,7 @@ order: 1
   <h2>Experience</h2>
   <div class="portfolio-timeline">
     <article class="portfolio-entry">
-      <time class="portfolio-date">2026.02</time>
+      <time class="portfolio-date">26.2</time>
       <div class="portfolio-body">
         <h3>UNLV 글로벌인재트랙</h3>
         <ul>
@@ -43,7 +43,7 @@ order: 1
     </article>
 
     <article class="portfolio-entry">
-      <time class="portfolio-date">2024 - 2025</time>
+      <time class="portfolio-date">24 - 25</time>
       <div class="portfolio-body">
         <h3>모각코 활동</h3>
         <p class="portfolio-meta">2024 Winter · 2025 Summer · 2025 Winter</p>
@@ -61,7 +61,7 @@ order: 1
   <h2>Projects</h2>
   <div class="portfolio-timeline">
     <article class="portfolio-entry">
-      <time class="portfolio-date">2026.01 - 2026.06</time>
+      <time class="portfolio-date">26.1 - 26.6</time>
       <div class="portfolio-body">
         <h3>pptx2md</h3>
         <p class="portfolio-meta">Graduation Project</p>
