@@ -11,6 +11,7 @@ order: 1
   <p>
     CS, 알고리즘, 프로젝트를 공부하고 기록합니다. 배운 내용을 정리하는 데서 멈추지 않고,
     문제를 정의하고 구현 가능한 형태로 옮기는 과정에 관심이 있습니다.
+    현재는 게임개발에 관심이 있습니다.
   </p>
 </section>
 
@@ -38,19 +39,6 @@ order: 1
           <li>University of Nevada, Las Vegas 프로그램 참여</li>
           <li>현지 프로젝트/학습 경험 기록</li>
           <li>DRAM row hammering, OOD, environment-aware precursor detection 관련 논문 내용 학습</li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="portfolio-entry">
-      <time class="portfolio-date">24 - 25</time>
-      <div class="portfolio-body">
-        <h3>모각코 활동</h3>
-        <p class="portfolio-meta">2024 Winter · 2025 Summer · 2025 Winter</p>
-        <ul>
-          <li>정기적인 학습 목표 설정과 회고 기록</li>
-          <li>알고리즘, CS, 프로젝트 주제 중심의 개인 학습 진행</li>
-          <li>KMP, Fenwick Tree, Tarjan's SCC, Lazy Segment Tree, Segment Tree, Bipartite Matching 학습</li>
         </ul>
       </div>
     </article>
