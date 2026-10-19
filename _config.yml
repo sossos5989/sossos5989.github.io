@@ -182,7 +182,7 @@ defaults:
       layout: post
       categories: 게임디자인
       comments: true
-        - scope:
+  - scope:
       path: "_posts/krafton-jungle" # 크래프톤정글 관련 게시물
     values:
       layout: post
