@@ -6,13 +6,8 @@ order: 1
 ---
 
 <section class="portfolio-intro">
-  <h2>추구하는 것</h2>
-  <p class="portfolio-name">정승우</p>
-  <p>
-    CS, 알고리즘, 프로젝트를 공부하고 기록합니다. 배운 내용을 정리하는 데서 멈추지 않고,
-    문제를 정의하고 구현 가능한 형태로 옮기는 과정에 관심이 있습니다.
-    현재는 게임개발에 관심이 있습니다.
-  </p>
+  <h2>정승우</h2>
+  <p>게임개발에 관심이 있습니다.</p>
 </section>
 
 <section class="portfolio-section">
@@ -38,7 +33,7 @@ order: 1
         <ul>
           <li>University of Nevada, Las Vegas 프로그램 참여</li>
           <li>현지 프로젝트/학습 경험 기록</li>
-          <li>DRAM row hammering, OOD, environment-aware precursor detection 관련 논문 내용 학습</li>
+          <li>DRAM row hammering, OOD, environment-aware precursor detection 관련 논문 작성</li>
         </ul>
       </div>
     </article>

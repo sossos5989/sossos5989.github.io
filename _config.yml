@@ -177,6 +177,18 @@ defaults:
       categories: 게임개발
       comments: true
   - scope:
+      path: "_posts/game-design" # 게임디자인 관련 게시물
+    values:
+      layout: post
+      categories: 게임디자인
+      comments: true
+        - scope:
+      path: "_posts/krafton-jungle" # 크래프톤정글 관련 게시물
+    values:
+      layout: post
+      categories: 크래프톤정글
+      comments: true
+  - scope:
       path: "_posts/school" # 충남대학교 관련 게시물
     values:
       layout: post
